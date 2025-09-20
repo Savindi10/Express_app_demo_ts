@@ -75,4 +75,18 @@ app.listen(PORT, () => {
 12. Check the Browser
 >>> type localhost:3000
 
-13. 
+13. create new folder called <interface> under the <src> folder 
+
+14. create new file <error.interface.ts> file and add this content 
+[
+  export interface IError {
+    key:string;
+    message:string;
+}
+
+]
+
+15. create new folder called <common>
+>>> inside <common folder> add file called <do_not_delete>
+>>> new folder called <constants>
+>>> again create new file called <errors.constants.ts> inside the constants folder 
